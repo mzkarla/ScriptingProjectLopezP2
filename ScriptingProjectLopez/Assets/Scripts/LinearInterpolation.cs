@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LinearInterpolation : MonoBehaviour
-{/*
+{ /*
   // In this case, result = 4
     float result = Mathf.Lerp (3f. 5f, 0.5f);
     //The Mathf.Lerp takes 3 float parameters, one representing the value to interpolate from,another representing the value to interpolate to, and a final representing how far to interpolate
@@ -26,5 +26,5 @@ public class LinearInterpolation : MonoBehaviour
     light.intensity = Mathf.Lerp(light.intensity, 8f, 0.5f * Time.deltaTime);
         //The change of to intensity would happen per second instead of per fram
     }
-    /*
+    */
 }
